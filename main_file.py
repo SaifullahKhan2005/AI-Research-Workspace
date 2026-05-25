@@ -14,7 +14,7 @@ from langchain_chroma import Chroma
 from langchain_core.prompts import PromptTemplate
 
 #UI Configurati
-st.set_page_config(page_title="Nexus | Semantic Document Intelligence", page_icon="🧠", layout="wide")
+st.set_page_config(page_title="Semantic Document Research", page_icon="🧠", layout="wide")
 st.title("🧠 AI Research Workspace")
 st.markdown("Upload enterprise datasets, technical documentation, or historical archives for semantic analysis.")
 
