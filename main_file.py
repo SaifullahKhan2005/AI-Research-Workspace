@@ -86,7 +86,7 @@ with st.sidebar:
                 st.success(f"Success! Embedded {len(splits)} chunks into ChromaDB.")
                 
     st.markdown("---")
-    st.caption("Built with Custom Orchestration, Chroma, and Gemini 1.5")
+    st.caption("Built with Custom Orchestration, Chroma, and Gemini 2.5")
 
 #Main Chat Interface
 for msg in st.session_state.chat_history:
